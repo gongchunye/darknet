@@ -35,6 +35,7 @@ float im2col_get_pixel(float *im, int height, int width, int channels,
 
 //From Berkeley Vision's Caffe!
 //https://github.com/BVLC/caffe/blob/master/LICENSE
+// see this on CSDN: https://blog.csdn.net/mrhiuser/article/details/52672824
 /*
 ** 将输入图片转为便于计算的数组格式，可以参考https://petewarden.com/2015/04/20/why-gemm-is-at-the-heart-of-deep-learning/
 ** 进行辅助理解（但执行方式并不同，只是用于概念上的辅助理解），由作者的注释可知，这是直接从caffe移植过来的
